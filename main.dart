@@ -13,4 +13,13 @@ void main() {
   for (String name in names) {
     print(name);
   }
+
+  int sum = 0;
+
+  for (int i in points) {
+    sum += i;
+  }
+
+  double average = sum / points.length;
+  print('\n $average');
 }
